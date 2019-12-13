@@ -16,7 +16,7 @@ The visual has three fields for data:
 | Values     | Values that are represented by size of circles   |
 | Group Ids  | Defines the id corresponding group (not required)|
 
-![](https://raw.githubusercontent.com/IngilevichV/Bubble-chart-for-Power-BI/master/images/preview3.png)
+![](https://raw.githubusercontent.com/IngilevichV/Bubble-chart-for-Power-BI/master/images/preview2.png)
 
 # Chart settings
 
