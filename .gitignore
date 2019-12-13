@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules
+jspm_packages
+typings
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# .NET compiled files
+server/bin
+server/obj
+
+.idea/
+.vs/
+.vscode/
+
+# Ignore Mac DS_Store files
+.DS_Store
+
+/package-lock.json
+/webpack.statistics.dev.html
+/webpack.statistics.prod.html
+
+.tmp
+dist
+*.log
+*.html

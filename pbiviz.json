@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "Bubble chart",
+        "displayName": "Bubble chart",
+        "guid": "bubbleChart",
+        "visualClassName": "Visual",
+        "version": "1.0.2",
+        "description": "Bubble chart",
+        "supportUrl": "",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "1.0.0",
+    "author": {
+        "name": "Varvara Ingilevich",
+        "email": "varvara.ingilevich@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

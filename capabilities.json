@@ -1,0 +1,75 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Labels",
+            "name": "labels",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Values",
+            "name": "values",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Group Ids",
+            "name": "groupIds",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "labels": {
+                        "max": 1
+                    },
+                    "values": {
+                        "max": 1
+                    }
+                }
+            ],
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "labels"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {}
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "values"
+                            }
+                        },
+                        {
+                            "bind": {
+                                "to": "groupIds"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "objects": {
+        "BubbleChartProperties": {
+            "displayName": "Chart Properties",
+            "properties": {
+                "fontColor": {
+                    "displayName": "Font color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "suppressDefaultTitle": true
+}
